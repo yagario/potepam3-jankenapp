@@ -5,7 +5,7 @@ def janken
   
   player_choice = nil
   until [0, 1, 2, 3].include?(player_choice)
-    print "じゃんけん......: "
+    print "じゃんけん...: "
     player_choice = gets.chomp.to_i
     puts "0〜3の数字を入力してください。" unless [0, 1, 2, 3].include?(player_choice)
   end
